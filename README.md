@@ -1,7 +1,4 @@
-# hello-world
-just another repository 
-Click the README.md file.
-Click the  pencil icon in the upper right corner of the file view to edit.
-In the editor, write a bit about yourself.
-Write a commit message that describes your changes.
-Click Commit changes button.
+# Run hello-world
+'''
+python -m grpc_tools.protoc -I../../protos --python_out=. --grpc_python_out=. ../../protos/helloworld.proto
+'''
